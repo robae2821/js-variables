@@ -1,3 +1,49 @@
+  // // alerts message on the page
+  // alert("you have to be 18 to enter this Site");
+  // // ask a yes/no
+  // confirm("Are You Over 18?")
+  // // give an Input. prompys an answer.
+  // prompt("How Old Are You?")
+  
+  
+  var firstName= "Robel";
+  var pizzaCount= 8;
+  var isHungery="true"
+  var totalCoast= 8*25 + "$";
+  
+//   console.log, aleret, document.write, target.html-element;
+  
+  alert("My Name Is " + " " + firstName + '\n' +
+  "Pizza count " + " " + pizzaCount + '\n' +
+  "Is Hungery" + " " + isHungery + '\n' +
+  "Your Total Coast Is" + " " + totalCoast);
+  
+    console.log("My Name Is " + " " + firstName + '\n' +
+    "Pizza count Is" + " " + pizzaCount + '\n' +
+    "Is Hungery" + " " + isHungery + '\n' +
+    "Your Total Coast Is" + " " + totalCoast);
+  
+    document.write("My Name Is " + " " + firstName + '\n' +
+    "Pizza count Is" + " " + pizzaCount + '\n' +
+    "Is Hungery" + " " + isHungery + '\n' +
+    "Your Total Coast Is" + " " + totalCoast);
+  
+    document.getElementById("memo").innerHTML="My Name Is " + " " + firstName + '\n' +
+  "Pizza count Is" + " " + pizzaCount + '\n' +
+  "Is Hungery" + " " + isHungery + '\n' +
+  "Your Total Coast Is" + " " + totalCoast;
+
+
+
+
+
+
+
+
+
+
+
+
 //   // //   The Geometrizer
 // // // Create 2 functions that calculate properties of a circle, using the definitions here.
 // // // Create a function called calcCircumfrence:
@@ -67,3 +113,5 @@ function calculateDeg(num) {
 // target in Html and applies variable deg farengeight
   document.getElementById("celDeg").innerHTML= Math.round(tempCalc);
 }
+
+
